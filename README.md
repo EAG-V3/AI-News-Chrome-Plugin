@@ -1,6 +1,6 @@
 # AI News Daily Chrome Extension
 
-**[🎬 Watch the Video Demo Here](YOUR_VIDEO_DEMO_LINK_HERE)**
+**[🎬 Watch the Video Demo Here](https://youtu.be/W_zi2x8wvRE)**
 
 ## Features
 - **Daily AI News:** Fetches the top Artificial Intelligence news articles from TechCrunch reliably.

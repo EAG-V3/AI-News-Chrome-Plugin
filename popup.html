@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI News Daily</title>
+  <link rel="stylesheet" href="popup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-mode">
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <h1 id="greeting">Good Morning</h1>
+        <div id="time-display" class="time-display">--:--</div>
+      </div>
+      <p class="subtitle">Latest AI News for you</p>
+    </header>
+
+    <main id="news-container">
+      <div class="skeleton-loader">
+        <div class="skeleton card"></div>
+        <div class="skeleton card"></div>
+        <div class="skeleton card"></div>
+        <div class="skeleton card"></div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Data from Google News</p>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

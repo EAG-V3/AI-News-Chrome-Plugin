@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "AI News Daily",
+  "version": "1.0",
+  "description": "Get the latest Artificial Intelligence news of the day with dynamic themes based on the time.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Latest AI News"
+  },
+  "host_permissions": [
+    "https://techcrunch.com/*",
+    "https://news.google.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
